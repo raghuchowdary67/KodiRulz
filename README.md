@@ -1,0 +1,2 @@
+# KodiRulz
+Entertainment from everywhere.

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<settings>
+    <category label="Multi Language Scrapers">
+		<setting id="einthusan" type="bool" label="Einthusan" default="true"/>
+        <setting id="mrulz" type="bool" label="Movie Rulez" default="true"/>
+    </category>
+    <category label="Download">
+        <setting id="dlfolder" type="folder" label="Download Folder" default=""/>
+    </category> 
+    <category label="Miscellaneous">
+        <setting label="Cache Timeout in hours" type="number" id="timeout" default="6"/> 
+        <setting label="Mature Content" type="lsep"/>
+        <setting label="Enable Mature content" type="bool" id="adult" default="false"/>
+    </category>    
+</settings>

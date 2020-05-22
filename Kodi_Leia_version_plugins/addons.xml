@@ -34,14 +34,14 @@
 </extension>
 </addon>
 
-<addon id="plugin.video.desidamaka" version="1.0.0" name="Desi Damaka" provider-name="Raghu">
+<addon id="plugin.video.desidamaka" version="1.0.1" name="Desi Damaka" provider-name="Raghu">
 <requires>
   <import addon="xbmc.python" version="2.20.0"/>
   <import addon="script.module.requests" version="2.4.3"/>
   <import addon="script.module.beautifulsoup" version="3.2.1"/>
-  <import addon="script.module.resolveurl" version="5.0.00"/>
+  <import addon="script.module.urlresolver" version="5.0.67"/>
   <import addon="script.common.plugin.cache" version="2.5.5"/>
-  <import addon="plugin.video.f4mTester" version="2.2.3"/>
+  <import addon="plugin.video.f4mTester" version="2.7.1"/>
 </requires>
 <extension point="xbmc.python.pluginsource" library="main.py">
   <provides>video</provides>
@@ -55,8 +55,8 @@ DesiDamaka and its developers [B]DO NOT[/B] host, create, or distribute any of t
 	<website>https://github.com/raghuchowdary67/KodiAddons/</website>
 	<disclaimer>DesiDamaka and its developers are not in any way affiliated with Kodi or any of the sites and providers used in the addon.</disclaimer>
 	<news>
-		[B]Version 1.0.0 - 20 May 2020[/B]
-		   - Initial version by Raghu
+		[B]Version 1.0.1 - 22 May 2020[/B]
+		   - Updated URLResolver and f4mTester versions
 	</news>
 	<assets>
 		<icon>icon.png</icon>

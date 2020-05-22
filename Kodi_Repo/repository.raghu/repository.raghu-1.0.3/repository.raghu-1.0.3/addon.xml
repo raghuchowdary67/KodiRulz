@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="repository.raghu" name="Raghu Kodi Addon Repository" version="1.0.3" provider-name="Raghu">
 	<extension point="xbmc.addon.repository" name="Raghu Kodi Addons Repository">
+		<dir>
+	        <info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
+	        <checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
+	        <datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
+		</dir>
 		<info compressed="false">https://raw.github.com/raghuchowdary67/KodiRulz/master/Kodi_Leia_version_plugins/addons.xml</info>
 		<checksum>https://raw.github.com/raghuchowdary67/KodiRulz/master/Kodi_Leia_version_plugins/addons.xml.md5</checksum>
 		<datadir zip="true">https://raw.github.com/raghuchowdary67/KodiRulz/master/Kodi_Leia_version_plugins/zips</datadir>

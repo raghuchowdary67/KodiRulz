@@ -1,0 +1,12 @@
+[B]Version 1.0.3 - 22 May 2020[/B]
+- Added URLresolver to plugins
+
+[B]Version 1.0.2 - 22 May 2020[/B]
+- Added dependencies in addons.xml to resolve dependency issue for desi damaka install
+
+[B]Version 1.0.1 - 21 May 2020[/B]
+- Fixed Kodi addon instal issue
+
+[B]Version 1.0.0 - 20 May 2020[/B]
+- Initial version by Raghu
+- Added all plugins to repo.
